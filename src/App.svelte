@@ -2,6 +2,7 @@
   import svelteLogo from './assets/svelte.svg'
   import viteLogo from '/vite.svg'
   import Counter from './lib/Counter.svelte'
+  import Nest from './Nest.svelte';
 </script>
 
 <main>
@@ -14,6 +15,7 @@
     </a>
   </div>
   <h1>Vite + Svelte</h1>
+  <Nest />
 
   <div class="card">
     <Counter />
